@@ -1,0 +1,20 @@
+<div class="centered_content">
+    <div class="task_manager_container">
+        <div class="sidebar">
+            <h1>Lists</h1>
+            <div class="list_menu_item">
+                <a *ngFor="let list of lists" [routerLink]="['/lists', list._id]" routerLinkActive="is_active">
+                    <p>{{list.title}}</p>
+                </a>
+            </div>
+            <button class="add_button" routerLink="/new-list">+ List</button>
+        </div>
+        <div class="tasks_list_container">
+            <h1>Tasks</h1>
+            <div class="tasks" *ngFor="let task of tasks">
+                <p>{{task.title}}</p>
+            </div>
+           <button routerLink="./new-task">Add task</button>
+        </div>
+    </div>
+</div>

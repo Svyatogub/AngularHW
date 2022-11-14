@@ -1,0 +1,44 @@
+@import "../../../styles.scss";
+
+.modal_box {
+    min-height: 200px;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 5px;
+    padding: 35px;
+    button {
+        background-color: #f04532;
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+.onput_form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    p {
+        input {
+            width: 300px;
+            height: 30px;
+            border: 1px solid #eee;
+            background-color: #eee;
+        }
+    }
+        button {
+            width: 100px;
+            height: 35px;
+            margin-top: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+            background-color: $green;
+            color: #333333;
+            padding: 7px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+}

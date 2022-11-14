@@ -1,0 +1,13 @@
+<div class="centered_content">
+    <div class="modal_box">
+        <h1>Create a new List</h1>
+        <div class="onput_form">
+            <p>
+                <input #listTitleInput type="text" placeholder="Enter the List name">
+            </p>
+            <button (click)="createList(listTitleInput.value)">Create</button>
+        </div>
+        <button routerLink="/">Go back</button>
+    </div>
+    
+</div>

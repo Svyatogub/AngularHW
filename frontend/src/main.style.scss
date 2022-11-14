@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+$blue-c: #2a6bd4;
+$black-c: #000000;
+$green-c: #06c94e;
+$red-c: #ab0d02;
+
+//simulation variables
+$turqoise: #44ddd0;
+$green: #27d7a1;
+$light-green: #45f69e;
+$dark-green: rgb(0, 100, 80);
+$light: #f8f8f8;
+
+html{
+    background: linear-gradient(to right top, $turqoise, $red-c);
+}
+
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+}
+
+.centered_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+}
